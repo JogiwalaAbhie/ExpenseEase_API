@@ -16,7 +16,7 @@ app.use('/api/expenses', require('./routes/expenseRoutes'));
 
 // Root route (fix for "Cannot GET /")
 app.get('/', (req, res) => {
-  res.send('Expense Tracker API is running...');
+  res.send('Hello AJ!Expense Tracker API is running...');
 });
 
 // Start the server
